@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="website icon" type="png" href="images1/wikipedia.png" />
+    <link rel="stylesheet" href="address-watch.css" />
+    <link rel="stylesheet" href="media-watch.css" />
+  </head>
+  <body>
+    <div id="nav-top">
+      <p id="nav-para">Free Shipping All India</p>
+    </div>
+    <!-- slide-bar for phone -->
+    <div class="slide">
+      <div class="slide-bar">
+        <div class="slide-nav">
+          <i onclick="slide_bar_close()" class="fa-solid fa-xmark"></i>
+          <p>WATCHES</p>
+          <a href="search-watch.html">
+            <i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+          <i class="fa-regular fa-user"></i>
+        </div>
+        <div class="slide-para">
+          <a href="index.html">Home</a>
+          <a href="product1.html">Catalog</a>
+          <a href="contact-watch.html">Contact</a>
+          <a href="watch-cart.html">Cart</a>
+        </div>
+      </div>
+    </div>
+    <!-- nav for phone -->
+    <div class="nav-mobile">
+      <i onclick="slide_bar_open()" class="fa-solid fa-bars"></i>
+      <p>WATCHES</p>
+      <a href="search-watch.html"
+        ><i id="search-icon" class="fa-solid fa-magnifying-glass"></i
+      ></a>
+      <i id="profile-icon" class="fa-regular fa-user"></i>
+    </div>
+    <!-- navigation -->
+    <div class="nav" id="navbar">
+      <div class="left-nev">
+        <p>WATCHES</p>
+        <a href="index.html">Home</a>
+        <a href="product1.html">Catalog</a>
+        <a href="contact-watch.html">Contact</a>
+      </div>
+      <div class="right-nav">
+        <a href="search-watch.html"
+          ><abbr title="Search">
+            <i class="fa-solid fa-magnifying-glass"></i></abbr
+        ></a>
+        <abbr title="Profile"> <i class="fa-regular fa-user"></i></abbr>
+        <a href="watch-cart.html">
+          <abbr title="Cart"> <i class="fa-solid fa-bag-shopping"></i></abbr
+        ></a>
+      </div>
+    </div>
+    <!-- navbar end -->
+    <form id="addressForm">
+      <label for="name">Full name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" required></textarea>
+
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" required />
+
+      <label for="state">State:</label>
+      <input type="text" id="state" name="state" required />
+
+      <label for="zip">PIN Code:</label>
+      <input type="text" id="zip" name="zip" required />
+
+      <label for="number">Phone number:</label>
+      <input type="text" id="number" name="number" required />
+
+      <button type="button" onclick="saveAddress()">Save Address</button>
+    </form>
+    <div class="after-save">
+      <p>Full name : <span id="p1"></span></p>
+      <p>Phone number : <span id="p2"></span></p>
+      <p>Address : <span id="p3"></span></p>
+      <p>City : <span id="p4"></span></p>
+      <p>State : <span id="p5"></span></p>
+      <p>Pin code : <span id="p6"></span></p>
+    </div>
+    <!-- footer start -->
+    <div class="footer">
+      <div class="join-link">
+        <p>Join on Chat</p>
+        <a href="https://wa.me/917030854405">Whats App</a>
+      </div>
+      <div class="information">
+        <div class="privacy-para">
+          <p>© 2025 All Rights Reserved By Ayush</p>
+        </div>
+        <div class="privacy-link">
+          <a href="watch-policy.html">Refund policy</a>
+          <a href="watch-policy.html">Privacy policy</a>
+          <a href="watch-policy.html">Terms of service</a>
+          <a href="contact-watch.html">Contact information</a>
+        </div>
+      </div>
+    </div>
+    <!-- footer end -->
+    <script src="address-watch.js"></script>
+  </body>
+</html>

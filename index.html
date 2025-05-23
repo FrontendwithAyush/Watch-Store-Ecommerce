@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FIRST COPY WATCHES</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="website icon" type="png" href="images1/wikipedia.png" />
+    <link rel="stylesheet" href="watch.css" />
+    <link rel="stylesheet" href="media-watch.css" />
+  </head>
+  <!-- loader start -->
+  <body class="hidden-loader">
+    <!-- Loader -->
+    <div id="loader">
+      <div class="loader-animation"></div>
+    </div>
+    <!-- loader end-->
+    <div id="nav-top">
+      <p id="nav-para">Free Shipping All India</p>
+    </div>
+    <!-- slide-bar for phone -->
+    <div class="slide">
+      <div class="slide-bar">
+        <div class="slide-nav">
+          <i onclick="slide_bar_close()" class="fa-solid fa-xmark"></i>
+          <p>WATCHES</p>
+          <a href="search-watch.html"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+          <a href="address-watch.html"><i class="fa-regular fa-user"></i></a>
+        </div>
+        <div class="slide-para">
+          <a id="slide-home">Home</a>
+          <a href="/product1.html">Catalog</a>
+          <a href="contact-watch.html">Contact</a>
+          <a href="watch-cart.html">Cart</a>
+        </div>
+      </div>
+    </div>
+    <!-- nav for phone -->
+    <div class="nav-mobile">
+      <i onclick="slide_bar_open()" class="fa-solid fa-bars"></i>
+      <p>WATCHES</p>
+      <a href="search-watch.html">
+        <i id="search-icon" class="fa-solid fa-magnifying-glass"></i
+      ></a>
+      <a href="address-watch.html"
+        ><i id="profile-icon" class="fa-regular fa-user"></i
+      ></a>
+    </div>
+    <!-- navigation -->
+    <div class="nav" id="navbar">
+      <div class="left-nev">
+        <p>WATCHES</p>
+        <a id="first-home">Home</a>
+        <a href="/product1.html">Catalog</a>
+        <a href="contact-watch.html">Contact</a>
+      </div>
+      <div class="right-nav">
+        <a href="search-watch.html"
+          ><abbr title="Search">
+            <i class="fa-solid fa-magnifying-glass"></i></abbr
+        ></a>
+        <a href="address-watch.html">
+          <abbr title="Profile"> <i class="fa-regular fa-user"></i></abbr
+        ></a>
+        <a href="watch-cart.html">
+          <abbr title="Cart"> <i class="fa-solid fa-bag-shopping"></i></abbr
+        ></a>
+      </div>
+    </div>
+    <!-- navbar end -->
+    <!-- slider start -->
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="images1/main1.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images1/main4.webp" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images1/main3.webp" />
+        </div>
+        <div class="swiper-slide">
+          <img src="images1/main2.jpg" />
+        </div>
+
+        ...
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+      <a id="i-button" href="/product1.html">Shop all</a>
+    </div>
+    <!-- slider end -->
+    <div class="big-container">
+      <div class="content-heading">
+        <p>Featured products</p>
+      </div>
+      <!-- product container start  -->
+      <div class="product-container">
+        <div class="product-box">
+          <div class="image-column">
+            <img
+              src="images1/productmain1.webp"
+              onmouseover="setTimeout(()=>{
+              this.src='images1/product1.webp'
+            },1000);"
+              onmouseout="this.src='images1/productmain1.webp'"
+            />
+          </div>
+          <p>Bronson Automatic Smoke Stainless Steel Watch</p>
+          <p><span>Rs.23,995.00</span>Rs.1,500.00</p>
+        </div>
+        <div class="product-box">
+          <div class="image-column">
+            <img
+              src="images1/productmain5.webp"
+              onmouseover="setTimeout(()=>{
+              this.src='images1/product5.webp'
+            },1000);"
+              onmouseout="this.src='images1/productmain5.webp'"
+            />
+          </div>
+          <p>Bronson Automatic Smoke Stainless Steel Watch</p>
+          <p><span>Rs.21,995.00</span>Rs.1,500.00</p>
+        </div>
+        <div class="product-box">
+          <div class="image-column">
+            <img
+              src="images1/productmain2.webp"
+              onmouseover="setTimeout(()=>{
+              this.src='images1/product2.webp'
+            },1000);"
+              onmouseout="this.src='images1/productmain2.webp'"
+            />
+          </div>
+          <p>Bronson Automatic Smoke Stainless Steel Watch</p>
+          <p><span>Rs.23,995.00</span>Rs.1,500.00</p>
+        </div>
+        <div class="product-box">
+          <div class="image-column">
+            <img
+              src="images1/productmain6.webp"
+              onmouseover="setTimeout(()=>{
+            this.src='images1/product6.webp'
+          },1000);"
+              onmouseout="this.src='images1/productmain6.webp'"
+            />
+          </div>
+          <p>Casual Leather Quartz Watches Waterproof</p>
+          <p><span>Rs.2,899.00</span>Rs.1,500.00</p>
+        </div>
+        <div class="product-box">
+          <div class="image-column">
+            <img
+              src="images1/productmain3.webp"
+              onmouseover="setTimeout(()=>{
+            this.src='images1/product3.webp'
+          },1000);"
+              onmouseout="this.src='images1/productmain3.webp'"
+            />
+          </div>
+          <p>Bronson Automatic Smoke Stainless Steel Watch</p>
+          <p><span>Rs.23,995.00</span>Rs.1,500.00</p>
+        </div>
+        <div class="product-box">
+          <div class="image-column">
+            <img
+              src="images1/productmain7.webp"
+              onmouseover="setTimeout(()=>{
+            this.src='images1/product7.webp'
+          },1000);"
+              onmouseout="this.src='images1/productmain7.webp'"
+            />
+          </div>
+          <p>Casual Leather Quartz Watches Waterproof</p>
+          <p><span>Rs.2,999.00</span>Rs.1,500.00</p>
+        </div>
+        <div class="product-box">
+          <div class="image-column">
+            <img
+              src="images1/productmain4.webp"
+              onmouseover="setTimeout(()=>{
+            this.src='images1/product4.webp'
+          },1000);"
+              onmouseout="this.src='images1/productmain4.webp'"
+            />
+          </div>
+          <p>Bronson Automatic Smoke Stainless Steel Watch</p>
+          <p><span>Rs.21,995.00</span>Rs.1,500.00</p>
+        </div>
+        <div class="product-box">
+          <div class="image-column">
+            <img
+              src="images1/productmain8.webp"
+              onmouseover="setTimeout(()=>{
+            this.src='images1/product8.webp'
+          },1000);"
+              onmouseout="this.src='images1/productmain8.webp'"
+            />
+          </div>
+          <p>Chronograph Stainless Steel Quartz Waterproof</p>
+          <p><span>Rs.3,099.00</span>Rs.1,500.00</p>
+        </div>
+      </div>
+      <div class="view-all">
+        <a href="/product1.html">View all</a>
+      </div>
+    </div>
+    <!-- product container end  -->
+    <!-- footer start -->
+    <div class="footer">
+      <div class="join-link">
+        <p>Join on Chat</p>
+        <a href="https://wa.me/917030854405">Whats App</a>
+      </div>
+      <div class="information">
+        <div class="privacy-para">
+          <p>© 2025 All Rights Reserved By Ayush</p>
+        </div>
+        <div class="privacy-link">
+          <a href="watch-policy.html">Refund policy</a>
+          <a href="watch-policy.html">Privacy policy</a>
+          <a href="watch-policy.html">Terms of service</a>
+          <a href="contact-watch.html">Contact information</a>
+        </div>
+      </div>
+    </div>
+    <!-- footer end -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="watch.js"></script>
+  </body>
+</html>

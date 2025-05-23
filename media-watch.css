@@ -1,0 +1,86 @@
+/* for phones ios / android */
+@media only screen and (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+  #nav-top {
+    height: 5vh;
+  }
+  #nav-para {
+    font-size: 0.7rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    word-spacing: 0.1rem;
+  }
+  /* nav mobile */
+  .nav-mobile {
+    display: flex;
+  }
+  .swiper {
+    height: 50vh;
+    width: 100%;
+  }
+  .swiper-slide img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+  #i-button {
+    font-size: 1rem;
+  }
+  .product-container {
+    columns: 2;
+  }
+  .product-box span {
+    padding: 0;
+  }
+  .content-heading {
+    height: 10vh;
+  }
+  .checkout {
+    flex-direction: column;
+  }
+  .checkout-image {
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .checkout-details {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+  .refund-policy p {
+    max-width: 80%;
+  }
+  .search p {
+    max-width: 80%;
+  }
+}
+/* for tablet/i pads */
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+  #nav-top {
+    height: 5vh;
+  }
+  #nav-para {
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0rem;
+  }
+  .left-nev p {
+    font-size: 1.3rem;
+  }
+  .left-nev {
+    width: 50%;
+  }
+  .left-nev a {
+    font-size: 1rem;
+  }
+  .right-nav i {
+    font-size: 1.2rem;
+  }
+  .left-nev {
+    justify-content: center;
+  }
+}
