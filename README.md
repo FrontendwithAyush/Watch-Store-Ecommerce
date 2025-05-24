@@ -49,7 +49,8 @@ ayush-watch-store/
 ```bash
 1. Download or clone the repository
 2. Open index.html in your browser
-3. Browse products, add to cart, test layout
+3. Browse products, test cart functionality, explore the UI
+
 
 📸 Screenshots
 (Optional: Add screenshots later if needed)
