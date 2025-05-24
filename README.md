@@ -60,4 +60,4 @@ Made with ❤️ by Ayush
 Frontend Developer | Fresher | Portfolio Builder
 
 ✨ Hosting
-Hosted on Netlify – https://ayushweatherappf.netlify.app/
+Hosted on Netlify – https://firstcopywatch.netlify.app/
