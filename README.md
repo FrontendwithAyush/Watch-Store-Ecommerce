@@ -16,9 +16,9 @@ A fully responsive **multi-page e-commerce website** built using **HTML, CSS, an
 
 - 🏠 **Home Page** – Engaging landing page for the store
 - ⌚ **Multiple Product Pages** – Showcases different watches
-- 🛒 **Cart System** – Add/remove items
-- 💳 **Checkout Page** – Enter user details (frontend only)
-- 📞 **Contact Page**
+- 🛒 **Cart System** 
+- 💳 **Profile Page** – Enter user details (frontend only)
+- 📞 **Contact Page** - direct contact with me
 - 📱 **Responsive Layout** – Mobile & desktop friendly
 
 ---
@@ -51,9 +51,6 @@ ayush-watch-store/
 2. Open index.html in your browser
 3. Browse products, test cart functionality, explore the UI
 
-
-📸 Screenshots
-(Optional: Add screenshots later if needed)
 
 📢 Author
 Made with ❤️ by Ayush
