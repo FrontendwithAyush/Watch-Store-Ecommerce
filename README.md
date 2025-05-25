@@ -48,7 +48,8 @@ ayush-watch-store/
 ├── images/
 │ ├── images1/ (product and banner images)
 ├── README.md
----
+
+
 ## 🧪 How to Run Locally
 
 1. Download or clone the repository
