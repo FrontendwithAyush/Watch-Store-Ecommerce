@@ -48,14 +48,27 @@ ayush-watch-store/
 ├── images/
 │ ├── images1/ (product and banner images)
 ├── README.md
-
+---
 ## 🧪 How to Run Locally
 
-```bash
 1. Download or clone the repository
 2. Open index.html in your browser
 3. Browse products, test cart functionality, explore the UI
+---
 
+## 📸 Additional Screenshots
+
+<div align="center">
+<img src="./images1/img1.png" width="200" />
+<img src="./images1/img2.png" width="200" />
+<img src="./images1/img3.png" width="200" />
+<br/>
+<img src="./images1/img4.png" width="200" />
+<img src="./images1/img5.png" width="200" />
+<img src="./images1/img6.png" width="200" />
+</div>
+
+---
 
 📢 Author
 Made with ❤️ by Ayush
