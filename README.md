@@ -5,7 +5,7 @@
 ![Netlify](https://img.shields.io/badge/Hosted_on-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
 
-A fully responsive **multi-page e-commerce website** built using **HTML, CSS, and JavaScript**. This project showcases a watch store with product listings, cart features, and checkout pages—perfect for your frontend portfolio.
+A fully responsive **multi-page e-commerce website** built using **HTML, CSS, and JavaScript**. This project showcases a watch store with product listings, cart features, and checkout page and more.
 
 > 🌐 **Live Site**: [https://firstcopywatch.netlify.app/](https://firstcopywatch.netlify.app/)
 
@@ -42,9 +42,9 @@ ayush-watch-store/
 ├── index.html
 ├── product1.html, product2.html, ...
 ├── js/
-│ ├── watch.js, product.js, etc.
+│ ├── watch.js, product.js, ...
 ├── css/
-│ ├── style.css , media-watch.css
+│ ├── style.css , media-watch.css, ...
 ├── images/
 │ ├── images1/ (product and banner images)
 ├── README.md
