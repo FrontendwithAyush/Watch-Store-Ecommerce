@@ -218,12 +218,18 @@
   align-items: center;
   justify-content: center;
 }
-.buy-now a {
+.buy-now button {
   text-decoration: none;
   color: #fff;
+  word-spacing: 0.1rem;
+  letter-spacing: 0.1rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
-.buy-now a i {
+.buy-now button i {
   padding-right: 1rem;
+  cursor: pointer;
 }
 .inner-details ul li {
   color: rgba(0, 0, 0, 0.767);

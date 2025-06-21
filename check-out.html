@@ -14,6 +14,7 @@
     <link rel="website icon" type="png" href="images1/wikipedia.png" />
     <link rel="stylesheet" href="check-out.css" />
     <link rel="stylesheet" href="media-watch.css" />
+    <link rel="stylesheet" href="formhandle.css" />
   </head>
   <body>
     <div id="nav-top">
@@ -71,6 +72,42 @@
       </div>
     </div>
     <!-- navbar end -->
+    <div id="successMessage" style="display: none">
+      <div
+        style="
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 9999;
+          background: #fff;
+          padding: 30px 25px;
+          border-radius: 16px;
+          box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+          text-align: center;
+          width: 90%;
+          max-width: 400px;
+          font-family: 'Segoe UI', sans-serif;
+        "
+      >
+        <div style="font-size: 60px; color: green">
+          <i class="fa-regular fa-circle-check"></i>
+        </div>
+        <h2 style="color: #2c3e50; font-size: 22px; margin-top: 15px">
+          ORDER CONFIRMED!
+        </h2>
+        <p style="color: #555; font-size: 15px; margin-top: 10px">
+          Thank you for shopping with <strong>WATCHES</strong>!<br />
+          We'll reach out to you on <strong>WhatsApp</strong> for confirmation
+          and delivery details.
+        </p>
+
+        <p style="color: #aaa; font-size: 13px; margin-top: 20px">
+          Redirecting to homepage...
+        </p>
+      </div>
+    </div>
+
     <div class="checkout">
       <div class="checkout-image">
         <img src="/images1/first-checkout.webp" />
@@ -88,9 +125,59 @@
           </p>
           <p id="t-para">Note : Please take a screenshot of this watch</p>
           <div class="buy-now">
-            <a href="https://wa.me/917030854405"
-              ><i class="fa-solid fa-dolly"></i>Order Now - Cash on Delivery</a
-            >
+            <button id="openModalBtn">
+              <i class="fa-solid fa-dolly"></i> Order Now
+            </button>
+
+            <!-- Custom Modal -->
+
+            <div id="customModal" class="modal-overlay">
+              <div class="modal-content">
+                <span class="close-btn" id="closeModalBtn">&times;</span>
+                <h2>Place Your Order</h2>
+                <form id="orderForm">
+                  <label>Your Name:</label>
+                  <input type="text" name="user_name" required />
+
+                  <label>WhatsApp Number:</label>
+                  <input type="text" name="user_whatsapp" required />
+
+                  <label>Address:</label>
+                  <input type="text" name="user_address" required />
+                  <!-- UPI Payment Info -->
+                  <div style="margin-top: 15px">
+                    <label style="font-weight: bold">UPI ID :</label>
+                    <p style="margin: 5px 0; font-size: 14px; color: #444">
+                      <span
+                        style="
+                          background: #f1f1f1;
+                          padding: 5px 10px;
+                          border-radius: 6px;
+                        "
+                        >ayushkumbhalkar68@okhdfcbank</span
+                      >
+                    </p>
+                    <p style="font-size: 13px; color: #777">
+                      Please make payment before submitting and upload the
+                      screenshot below.
+                    </p>
+                  </div>
+
+                  <label>Payment Screenshot (Google Drive/Imgur Link):</label>
+                  <input type="text" name="payment_proof" required />
+
+                  <!-- These values will be auto-filled from localStorage -->
+                  <input type="hidden" name="watch_name" id="hiddenWatchName" />
+                  <input
+                    type="hidden"
+                    name="watch_price"
+                    id="hiddenWatchPrice"
+                  />
+
+                  <button type="submit">Place Order</button>
+                </form>
+              </div>
+            </div>
           </div>
           <ul>
             <li>Case Shape : Round</li>
@@ -123,6 +210,11 @@
       </div>
     </div>
     <!-- footer end -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+      emailjs.init("ls4sA_uJGAniN4eAJ"); // Your public key
+    </script>
+
     <script src="check-out.js"></script>
   </body>
 </html>
