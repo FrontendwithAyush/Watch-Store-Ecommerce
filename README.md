@@ -5,7 +5,7 @@
 ![Netlify](https://img.shields.io/badge/Hosted_on-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
 
-A fully responsive **multi-page e-commerce website** built using **HTML, CSS, and JavaScript**. This project showcases a watch store with product listings, cart features, and checkout page and more.
+A fully responsive **multi-page e-commerce website** built using **HTML, CSS, JavaScript and EmailJS**. This project showcases a watch store with product listings, cart features, and checkout page and more.
 
 > 🌐 **Live Site**: [https://firstcopywatch.netlify.app/](https://firstcopywatch.netlify.app/)
 
@@ -33,6 +33,7 @@ A fully responsive **multi-page e-commerce website** built using **HTML, CSS, an
 - **HTML5** – Page structure
 - **CSS3** – Custom styling and layout
 - **JavaScript (Vanilla)** – Page interaction, cart logic
+- **EmailJS** - For order conformation
 
 ---
 
